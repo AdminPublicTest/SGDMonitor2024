@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitor de Seguimiento SGD</title>
+    <!-- ======= Styles ====== -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- =============== Navigation ================ -->
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="eye-sharp"></ion-icon>
+                        </span>
+                        <span class="title">Monitor de Seguimiento SGD</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="bar-chart-sharp"></ion-icon>
+                        </span>
+                        <span class="title">Dashboard</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="people"></ion-icon>
+                        </span>
+                        <span class="title">Equipo ETII</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="send"></ion-icon>
+                        </span>
+                        <span class="title">Asignados</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="thumbs-up"></ion-icon>
+                        </span>
+                        <span class="title">Atendidos</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="hand-left"></ion-icon>
+                        </span>
+                        <span class="title">Pendiente</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="search-circle"></ion-icon>
+                        </span>
+                        <span class="title">Seguimiento</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="icon">
+                            <ion-icon name="file-tray-stacked"></ion-icon>
+                        </span>
+                        <span class="title">Archivado</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- ========================= Main ==================== -->
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+
+                <div class="search">
+                    <label>
+                        <input type="text" placeholder="Search here">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </label>
+                </div>
+
+                <div class="user">
+                    <img src="assets/imgs/Andres.png" alt="">
+                </div>
+            </div>
+
+            <!-- ======================= Cards ================== -->
+            <div class="cardBox">
+                <div class="card">
+                    <div>
+                        <div class="numbers">1,504</div>
+                        <div class="cardName">Asignados</div>
+                    </div>
+
+                    <div class="iconBx">
+                        <ion-icon name="send"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <div class="numbers">80</div>
+                        <div class="cardName">Atendidos</div>
+                    </div>
+
+                    <div class="iconBx">
+                        <ion-icon name="thumbs-up"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <div class="numbers">284</div>
+                        <div class="cardName">Pendiente</div>
+                    </div>
+
+                    <div class="iconBx">
+                        <ion-icon name="hand-left"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <div class="numbers">842</div>
+                        <div class="cardName">Seguimiento</div>
+                    </div>
+
+                    <div class="iconBx">
+                        <ion-icon name="search-circle"></ion-icon>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <div class="numbers">111</div>
+                        <div class="cardName">Archivado</div>
+                    </div>
+
+                    <div class="iconBx">
+                        <ion-icon name="file-tray-stacked"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ================ Order Details List ================= -->
+            <div class="details">
+                <div class="recentOrders">
+                    <div class="cardHeader">
+                        <h2>Asignaciones Recientes</h2>
+                        <a href="#" class="btn">Ver todo</a>
+                    </div>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>Expediente</td>
+                                <td>Asunto</td>
+                                <td>Fecha</td>
+                                <td>Indicaciones</td>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>000658-2024-GAD-UA</td>
+                                <td>REQUERIMIENTO DE MOBILIARIO PARA PERSONAL NUEVO DEL MODULO CORPORATIVO LABORAL</td>
+                                <td>26/09/2024</td>
+                                <td><span class="status delivered">Atendido</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>004061-2024-ST-ETI</td>
+                                <td>Solicito se sirva disponer las acciones correspondientes para la compra de pasajes y asignación de viáticos para los jueces y juezas de las Cortes Superiores de Justicia que no son Unidades Ejecutoras, en virtud al “II Seminario del Proceso Contencioso Administrativo Laboral y Previsional" que se llevará a cabo los días 12 y 13 de diciembre en Cajamarca</td>
+                                <td>27/09/2024</td>
+                                <td><span class="status pending">Seguimiento</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>002392-2024-ST-ETI</td>
+                                <td>Informe del Curso virtual Técnicas de Oralidad para la Dirección de Audiencias</td>
+                                <td>30/09/2024</td>
+                                <td><span class="status return">Pendiente</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>000630-2024-AML-OA</td>
+                                <td>REQUERIMIENTOS VARIOS PARA GARANTIZAR LA OPERATIVIDAD Y CONTINUIDAD DEL SERVICIO DE ADMINISTRACION DE JUSTICIA DE LA NLPT</td>
+                                <td>26/09/2024</td>
+                                <td><span class="status inProgress">Archivado</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>000375-2024-ADL-CS</td>
+                                <td>Se solicita por encargo de la Presidencia de la Corte Superior de Justicia de Puente Piedra y Ventanilla, se asigne presupuesto para la adquisisción e implementación de un Estabilizador de Estado Solido para el circuito electrico estabilizado de la Sede Laboral y del Sistema Electrico de Emergencia.</td>
+                                <td>26/09/2024</td>
+                                <td><span class="status delivered">Atendido</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>004956-2024-GSJR-G</td>
+                                <td>Informe de la Gerencia de Servicios Judiciales y Recaudación sobre el dimensionamiento y alcance de órganos jurisdiccionales que aplicarán en la </td>
+                                <td>23/09/2024</td>
+                                <td><span class="status pending">Seguimiento</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>001530-2024-CDI-SD</td>
+                                <td>A conocimiento del informe técnico actualizado, elaborado por la Gerencia de Informática, respecto a las implementaciones del EJE para la especialidad Laboral Subespecialidad Contencioso Administrativo Laboral y Previsional en la CSJ de La Libertad</td>
+                                <td>23/09/2024</td>
+                                <td><span class="status return">Pendiente</span></td>
+                            </tr>
+
+                            <tr>
+                                <td>001246-2024-ADMNLP</td>
+                                <td>Solicito poner a conocimiento 3 buenas prácticas del Módulo Corporativo Laboral de la Corte Superior de Justicia de La Libertad</td>
+                                <td>23/09/2024</td>
+                                <td><span class="status inProgress">Archivado</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- ================= New Customers ================ -->
+                <div class="recentCustomers">
+                    <div class="cardHeader">
+                        <h2>Equipo ETII</h2>
+                    </div>
+
+                    <table>
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="assets/imgs/Jose cruz.png" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Jose Cruz <br> <span>Asesor Legal</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="assets/imgs/Fred.png" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Fred Pesantes <br> <span>Resp. Componente Normativo</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="assets/imgs/Carlos.png" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Carlos Valencia <br> <span>Resp. Componente Capacitacion y Difusion</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="assets/imgs/Jose Magallanes.png" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Jose Magallanes <br> <span>Especialista en Derecho Laboral</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="assets/imgs/Luis.png" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Luis Garrido <br> <span>Analista de Monitoreo</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="assets/imgs/Mayra.png" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Mayra Grados <br> <span>Analista de Monitoreo/span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="assets/imgs/Susana.png" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Susana Ramos <br> <span>Analista de Monitoreo</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="assets/imgs/Omhar.png" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Omhar Burga <br> <span>Ingeniero Informatico</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="assets/imgs/Jesus.png" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Jesus Flores <br> <span>Analista Estadistico</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="assets/imgs/Chris.png" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Chris Perea <br> <span>Analista Estadistico</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="assets/imgs/Teresa.png" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Carmen Diaz <br> <span>Analista Gestion de Procesos</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="assets/imgs/Alfredo.png" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Alfredo Orihuela <br> <span>Ingeniero Informatico</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="assets/imgs/Antonio.png" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Antonio Tanco <br> <span>Asistente Administrativo</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="assets/imgs/Rodrigo.png" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Rodrigo Napanga <br> <span>Gestor Administrativo</span></h4>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="60px">
+                                <div class="imgBx"><img src="assets/imgs/Marleny.png" alt=""></div>
+                            </td>
+                            <td>
+                                <h4>Marleny Ortiz <br> <span>Asistente Administrativo</span></h4>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =========== Scripts =========  -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- ====== ionicons ======= -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
